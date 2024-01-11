@@ -1,0 +1,36 @@
+let svtfr = document.getElementById("list");
+let svet1 = document.getElementById("item1");
+let svet2 = document.getElementById("item2");
+let svet3 = document.getElementById("item3");
+svtfr.style.backgroundColor = "black";
+svtfr.style.width = "150px";
+svtfr.style.height = "400px";
+svtfr.style.padding = "10px";
+svtfr.style.borderRadius = "30px";
+svet1.style.width = "100px";
+svet1.style.height = "100px";
+svet1.style.borderRadius = "50%";
+svet1.style.margin = "auto";
+svet1.style.marginTop = "20px";
+svet1.style.backgroundColor = "grey";
+svet2.style.width = "100px";
+svet2.style.height = "100px";
+svet2.style.borderRadius = "50%";
+svet2.style.margin = "auto";
+svet2.style.marginTop = "20px";
+svet2.style.backgroundColor = "grey";
+svet3.style.width = "100px";
+svet3.style.height = "100px";
+svet3.style.borderRadius = "50%";
+svet3.style.margin = "auto";
+svet3.style.marginTop = "20px";
+svet3.style.backgroundColor = "grey";
+svet1.style.backgroundColor = "red";
+setTimeout(() => {
+  svet2.style.backgroundColor = "yellow";
+}, 6000);
+setTimeout(() => {
+  svet1.style.backgroundColor = "grey";
+  svet2.style.backgroundColor = "grey";
+  svet3.style.backgroundColor = "green";
+}, 9000);
